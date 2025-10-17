@@ -10,10 +10,6 @@ module.exports = {
           terracotta: "var(--skinlys-terracotta)",
           dark: "var(--skinlys-dark)"
         }
-      },
-      fontFamily: {
-        display: ["ui-sans-serif","system-ui","-apple-system","Segoe UI","Roboto","Inter","sans-serif"],
-        body: ["ui-sans-serif","system-ui","-apple-system","Segoe UI","Roboto","Inter","sans-serif"]
       }
     }
   },
