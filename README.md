@@ -1,1 +1,4 @@
-Upload this folder to Vercel (or via Git). Replace PLANITY_URL and /public/logo-skinlys.png with your assets.
+# Skinlys final – Logo + page /routine (Tally)
+- Logo: /public/logo-skinlys.png (remplaçable).
+- Formulaire: définir NEXT_PUBLIC_TALLY_URL dans Vercel (Settings → Environment Variables).
+- Lien Planity: modifier PLANITY_URL dans app/page.tsx.

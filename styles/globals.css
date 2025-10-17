@@ -3,15 +3,14 @@
 @tailwind utilities;
 
 :root{
-  
-  --skinlys-bg: #FFECEA;         /* crème */
-  --skinlys-primary: #FFECEA;    /* nude rosé */
-  --skinlys-terracotta: #C75A42; /* terracotta douce */
-  --skinlys-dark: #C04027;       /* texte */
+  /* Ajuste si besoin avec tes hex exacts */
+  --skinlys-bg: #FCEBE7;         /* fond rose pâle */
+  --skinlys-primary: #C96752;    /* terracotta du logo */
+  --skinlys-terracotta: #C96752; /* alias */
+  --skinlys-dark: #2B2B2B;
 }
-
 body{ background: var(--skinlys-bg); color: var(--skinlys-dark); }
-.card{ @apply rounded-2xl shadow-sm border border-neutral-200 bg-white; }
 .btn{ @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium; }
 .btn-primary{ background: var(--skinlys-primary); color: white; }
 .btn-outline{ @apply border border-neutral-300; }
+.card{ @apply rounded-2xl shadow-sm border border-neutral-200 bg-white; }
